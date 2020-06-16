@@ -1,0 +1,18 @@
+.home {
+  height: 100vh;
+  background-color: $main-area;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  .home-content {
+    position: absolute;
+    margin: 25% auto 0;
+    h1.name {
+      font-weight: bold;
+      font-family: Nunito, sans-serif;
+      span {
+        color: $main-color;
+      }
+    }
+  }
+}
