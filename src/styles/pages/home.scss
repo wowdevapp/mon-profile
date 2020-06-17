@@ -6,12 +6,53 @@
   position: relative;
   .home-content {
     position: absolute;
-    margin: 25% auto 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
     h1.name {
-      font-weight: bold;
+      font-weight: 700;
       font-family: Nunito, sans-serif;
+      font-size: 3.2857rem;
+      text-transform: capitalize;
+      padding: 0 0 10px;
+      letter-spacing: 4px;
       span {
         color: $main-color;
+      }
+    }
+    p {
+      text-transform: lowercase;
+      font-size: 1.25rem;
+      line-height: 2rem;
+      color: $paragraph;
+    }
+    .sociale {
+      li {
+        list-style: none;
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+        margin: 0px 10px;
+        color: $paragraph;
+        border: 2px solid $sidebar;
+        border-radius: 50%;
+        transition: 0.5s;
+        cursor: pointer;
+        a {
+          color: $paragraph;
+        }
+      }
+      li:hover {
+        color: $main-color;
+        border: 2px solid $main-color;
+        transition: 0.5s;
+        cursor: pointer;
+        a {
+          color: $main-color;
+        }
       }
     }
   }
