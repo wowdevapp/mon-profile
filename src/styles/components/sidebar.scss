@@ -1,9 +1,9 @@
 .sidebar {
   height: 100vh;
   background-color: $sidebar;
-  width: 20%;
+  width: 18%;
   color: white;
-  position: relative;
+  position: fixed;
   padding: 0;
   .sd-button {
     position: absolute;
