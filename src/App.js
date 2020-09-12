@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import SideBar from "./components/SideBar";
 import Home from "./pages/home";
 import About from "./pages/about";
+import Resume from "./pages/resume";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.scss";
 
@@ -34,6 +35,9 @@ class App extends Component {
                 </Route>
                 <Route path="/about">
                   <About />
+                </Route>
+                <Route path="/resume">
+                  <Resume />
                 </Route>
               </Switch>
             </div>

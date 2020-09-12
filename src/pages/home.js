@@ -10,8 +10,8 @@ export default class Home extends Component {
             hi,i'am <span>abdelhaq fouad</span>
           </h1>
           <p>
-            I AM A FREELANCER GRAPHIC DESIGNER WEB DEVOLOPER FROM MORROCO I, I
-            HAD STARTED MY CAREER AS A FREELANCER BACK IN 2015.
+            I AM A FREELANCER GRAPHIC DESIGNER WEB DEVOLOPER FROM MORROCO, I HAD
+            STARTED MY CAREER AS A FREELANCER BACK IN 2015.
           </p>
           <ul className="sociale">
             <li>

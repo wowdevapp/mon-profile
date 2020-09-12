@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 class SideBar extends Component {
+  getSideBar = () => {
+    document.querySelector(".sidebar").classList.toggle("hide-side");
+  };
   render() {
     return (
-      <div className="sidebar">
-        <div className="sd-button">
+      <div className="sidebar hide-side">
+        <div className="sd-button" onClick={this.getSideBar}>
           <i className="fa fa-bars"></i>
         </div>
         <div className="my-image text-center">
@@ -28,8 +31,8 @@ class SideBar extends Component {
               </Link>
             </li>
             <li>
-              <Link to="/blog">
-                <span>blog</span>
+              <Link to="/resume">
+                <span>resume</span>
               </Link>
             </li>
             <li>

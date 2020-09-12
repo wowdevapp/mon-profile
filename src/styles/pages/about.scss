@@ -1,7 +1,7 @@
 .about-me {
   background-color: $main-area;
   min-height: 100vh;
-  padding-top: 120px;
+  padding-top: 80px;
   .title {
     position: relative;
     margin-bottom: 50px;
@@ -35,7 +35,7 @@
     span {
       position: absolute;
       left: 0;
-      top: 33px;
+      top: 10px;
       font-size: 6rem;
       line-height: 1;
       font-weight: 900;
@@ -82,7 +82,7 @@
     }
     ul.identification {
       list-style: none;
-      margin: 2rem 0;
+      margin: 2.1rem 0;
       padding: 0;
       li:not(last-child) {
         margin-bottom: 3px;
@@ -106,6 +106,90 @@
       border-radius: 0;
       padding: 10px;
       background-color: $main-color;
+    }
+  }
+  .services {
+    padding-top: 50px;
+    h2 {
+      color: white;
+    }
+    .w-design {
+      border-top: 3px solid $gray;
+      width: 95%;
+      padding: 20px;
+      background-color: $sidebar;
+      transition: 0.5s;
+      i {
+        color: $main-color;
+      }
+      &:hover {
+        border-top: 3px solid $main-color;
+      }
+      > h4 {
+        color: white;
+        position: relative;
+        margin: 10px 0 20px;
+        &:after {
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          content: "";
+          width: 70px;
+          border-bottom: 2px solid white;
+        }
+      }
+    }
+    .w-dev {
+      border-top: 3px solid $gray;
+      width: 95%;
+      padding: 20px 20px;
+      background-color: $sidebar;
+      transition: 0.5s;
+      i {
+        color: $main-color;
+      }
+      &:hover {
+        border-top: 3px solid $main-color;
+      }
+      > h4 {
+        color: white;
+        position: relative;
+        margin: 10px 0 20px;
+        &:after {
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          content: "";
+          width: 70px;
+          border-bottom: 2px solid white;
+        }
+      }
+    }
+    .mobile-dev {
+      border-top: 3px solid $gray;
+      width: 95%;
+      padding: 20px 20px;
+      background-color: $sidebar;
+      transition: 0.5s;
+      i {
+        color: $main-color;
+      }
+      &:hover {
+        border-top: 3px solid $main-color;
+      }
+      > h4 {
+        color: white;
+        position: relative;
+        margin: 10px 0 20px;
+        &:after {
+          position: absolute;
+          bottom: -10px;
+          left: 0;
+          content: "";
+          width: 70px;
+          border-bottom: 2px solid white;
+        }
+      }
     }
   }
 }
