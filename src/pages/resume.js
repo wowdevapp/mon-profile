@@ -87,6 +87,45 @@ export default class About extends Component {
                 </div>
               </div>
             </div>
+            <div className="col-md-6">
+              <div className="skill-one">
+                <h4>Vue</h4>
+                <div className="">
+                  <div className="progress" style={{ height: "15px" }}>
+                    <div
+                      className="progress-bar"
+                      role="progressbar"
+                      style={{ width: "80%" }}
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      80%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6">
+              <div className="skill-two">
+                <h4>Symfony</h4>
+                <div className="">
+                  <div class="progress" style={{ height: "15px" }}>
+                    <div
+                      className="progress-bar"
+                      role="progressbar"
+                      style={{ width: "60%" }}
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      60%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
           </div>
         </div>
         <div className="resume">
@@ -100,6 +139,19 @@ export default class About extends Component {
                 <i class="fa fa-briefcase"></i> working experience
               </h2>
               <div className="timeline-exp">
+              <div className="row py-2">
+                  <div className="col-md-3">
+                    <p className="exp-date">10/2020-present</p>
+                  </div>
+                  <div className="col-md-8">
+                    <h4 style={{ color: "#02a4d3" }}>
+                      Fullstack web devloper <span style={{ color: "#9097ad" }}>Tingisweb</span>
+                    </h4>
+                    <p style={{ fontSize: "16px" }}>
+                      Conception and devlopement of website for car advertisment autoliya.com
+                    </p>
+                  </div>
+                </div>
                 <div className="row py-2">
                   <div className="col-md-3">
                     <p className="exp-date">2016-present</p>

@@ -26,9 +26,8 @@ export default class About extends Component {
                   I am <span>{this.state.name}</span>
                 </h2>
                 <p>
-                  I am Designer fullstack web devoloper and with more than 3
-                  years of experience i use laravel vue react on my works i can
-                  provide clean and propre work .
+                i'm an experienced, full-time freelance developer (5 years) with a wide cross-section of knowledge in both backend, 
+                frontend and mobile tech-stack.(Larvel,Symfony,Vue,React,ReactNative)
                 </p>
                 <ul className="identification">
                   <li>
@@ -50,7 +49,9 @@ export default class About extends Component {
                     <b>Address </b>idrissia,hay almowadafine tanger
                   </li>
                 </ul>
-                <button className="cv btn">DOWNLOAD CV</button>
+                <a href="/cv/cv.pdf" download>
+                   <button className="cv btn">DOWNLOAD CV</button>
+                </a>                
               </div>
             </div>
           </div>
@@ -64,18 +65,21 @@ export default class About extends Component {
             <div className="row py-5">
               <Service
                 head="web design"
-                text=" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-                       quibusdam, dolorum voluptatem hic consectetur"
+                text="it is so important to have a website design that represents your brand values. We'll help you make that first impression a 
+                good impression in the first seven seconds through analysis, design, implementation and deployment."
+                icon="BsDisplay"
               />
               <Service
                 head="web dev"
-                text=" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-                       quibusdam, dolorum voluptatem hic consectetur"
+                text="From a simple presentation site to e-commerce sites and whatever the size of your project,
+                    tell us your need and we will provide you with the solution you need!"
+                       icon="AiFillCode"
               />
               <Service
                 head="Mobile  Dev"
-                text=" Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae
-                       quibusdam, dolorum voluptatem hic consectetur"
+                text="Digitize your processes and be just a click away with our advanced web application solutions,
+                IOS or Android mobile applications;"
+                       icon="ImMobile"
               />
             </div>
           </div>

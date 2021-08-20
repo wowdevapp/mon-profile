@@ -10,8 +10,9 @@ export default class Home extends Component {
             hi,i'am <span>abdelhaq fouad</span>
           </h1>
           <p>
-            I AM A FREELANCER GRAPHIC DESIGNER WEB DEVOLOPER FROM MORROCO, I HAD
-            STARTED MY CAREER AS A FREELANCER BACK IN 2015.
+          I'm an experienced, full-time freelance developer (5 years) with a wide cross-section of knowledge in both backend, frontend and mobile tech-stack.
+My expertise are:
+PHP Web development, MVC frameworks(Larvel,Symfony), Wordpress theme & plugins development, HTML5, CSS3, Javascript,Vue js,React ,React native, APIs, Payment Gateways Integration, AWS (Amazon Web Services).
           </p>
           <ul className="sociale">
             <li>
