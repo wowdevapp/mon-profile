@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Particles from "react-particles-js";
+
 
 export default class Home extends Component {
   render() {
@@ -32,7 +32,7 @@ PHP Web development, MVC frameworks(Larvel,Symfony), Wordpress theme & plugins d
             </li>
           </ul>
         </div>
-        <Particles
+        {/* <Particles
           params={{
             particles: {
               number: {
@@ -63,7 +63,7 @@ PHP Web development, MVC frameworks(Larvel,Symfony), Wordpress theme & plugins d
           }}
           height="100vh"
           width="100%"
-        />
+        /> */}
       </div>
     );
   }
