@@ -32,38 +32,6 @@ PHP Web development, MVC frameworks(Larvel,Symfony), Wordpress theme & plugins d
             </li>
           </ul>
         </div>
-        {/* <Particles
-          params={{
-            particles: {
-              number: {
-                value: 100,
-                density: {
-                  enable: true,
-                  value_area: 1000,
-                },
-              },
-              line_linked: {
-                enable: false,
-              },
-              size: {
-                value: 5,
-                random: true,
-              },
-              opacity: {
-                value: 0.3,
-                random: false,
-                anim: {
-                  enable: false,
-                  speed: 4,
-                  opacity_min: 0.1,
-                  sync: false,
-                },
-              },
-            },
-          }}
-          height="100vh"
-          width="100%"
-        /> */}
       </div>
     );
   }

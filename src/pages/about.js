@@ -4,7 +4,7 @@ import Service from "../components/Service.js";
 export default class About extends Component {
   state = {
     name: "Fouad Abdelhaq",
-    age: 26,
+    age: 28,
     nationality: "Marocain",
   };
 
@@ -17,8 +17,8 @@ export default class About extends Component {
             <span>ABOUT</span>
           </div>
           <div className="row py-5">
-            <div className="d-none d-md-block col-md-6 my-image">
-              <img className="img-fluid" src="/img/about-image.jpg" alt="" />
+            <div className="d-none  d-md-block col-md-6 my-image">
+              <img  className="img-fluid" src="/img/abdelhaq.jpg" alt="abdelhaq" />
             </div>
             <div className="col-md-6">
               <div className="details-content">
@@ -65,8 +65,8 @@ export default class About extends Component {
             <div className="row py-5">
               <Service
                 head="web design"
-                text="it is so important to have a website design that represents your brand values. We'll help you make that first impression a 
-                good impression in the first seven seconds through analysis, design, implementation and deployment."
+                text="it is so important to have a website design that represents your brand values. We'll help you ,
+                through analysis, design, implementation and deployment."
                 icon="BsDisplay"
               />
               <Service

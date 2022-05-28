@@ -66,10 +66,17 @@
       height: 260px;
       background-color: #037fff;
       position: absolute;
-      bottom: -7px;
+      bottom: 0px;
       right: 15px;
       border-radius: 0px;
       opacity: 0.7;
+    }
+    img{
+      width:100%;
+      height: 100%;
+      object-fit: cover;
+      object-position:top;
+      
     }
   }
   .details-content {
@@ -110,6 +117,7 @@
   }
   .services {
     padding-top: 50px;
+    
     h2 {
       color: white;
     }
@@ -117,8 +125,11 @@
       border-top: 3px solid $gray;
       width: 95%;
       padding: 20px;
+      font: size 12px;;
       background-color: $sidebar;
       transition: 0.5s;
+      overflow-y: hidden;
+      max-height: 350px;
       i {
         color: $main-color;
       }
@@ -145,6 +156,8 @@
       padding: 20px 20px;
       background-color: $sidebar;
       transition: 0.5s;
+      overflow-y: hidden;
+      max-height: 350px;
       i {
         color: $main-color;
       }
@@ -171,6 +184,8 @@
       padding: 20px 20px;
       background-color: $sidebar;
       transition: 0.5s;
+      overflow-y: hidden;
+      max-height: 350px;
       i {
         color: $main-color;
       }

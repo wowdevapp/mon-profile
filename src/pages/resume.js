@@ -125,7 +125,6 @@ export default class About extends Component {
                 </div>
               </div>
             </div>
-            
           </div>
         </div>
         <div className="resume">
@@ -141,31 +140,35 @@ export default class About extends Component {
               <div className="timeline-exp">
               <div className="row py-2">
                   <div className="col-md-3">
-                    <p className="exp-date">10/2020-present</p>
+                    <p className="exp-date">09/2021-En Cours</p>
                   </div>
                   <div className="col-md-8">
                     <h4 style={{ color: "#02a4d3" }}>
-                      Fullstack web devloper <span style={{ color: "#9097ad" }}>Tingisweb</span>
+                      Fullstack web devloper{" "}
+                      <span style={{ color: "#9097ad" }}>Omnevo</span>
                     </h4>
                     <p style={{ fontSize: "16px" }}>
-                      Conception and devlopement of website for car advertisment autoliya.com
+                      Omnevo (part of the AOE group) is the global leader in delivering unique ancillary revenue models in food & beverage, 
+                      retail and experiences for travel and mobility operators
                     </p>
                   </div>
                 </div>
                 <div className="row py-2">
                   <div className="col-md-3">
-                    <p className="exp-date">2016-present</p>
+                    <p className="exp-date">10/2020-09/2021</p>
                   </div>
                   <div className="col-md-8">
                     <h4 style={{ color: "#02a4d3" }}>
-                      Designer and front end web developer
+                      Fullstack web devloper{" "}
+                      <span style={{ color: "#9097ad" }}>Tingisweb</span>
                     </h4>
                     <p style={{ fontSize: "16px" }}>
-                      i work as freelancer Designer and front end web devoloper
-                      in different platform and personnel project
+                      Conception and devlopement of website for car advertisment
+                      autoliya.com
                     </p>
                   </div>
                 </div>
+                
                 <div className="row py-2">
                   <div className="col-md-3">
                     <p className="exp-date">06/2020-09/2020</p>
@@ -201,6 +204,20 @@ export default class About extends Component {
                     </p>
                   </div>
                 </div>
+                <div className="row py-2">
+                  <div className="col-md-3">
+                    <p className="exp-date">2016-present</p>
+                  </div>
+                  <div className="col-md-8">
+                    <h4 style={{ color: "#02a4d3" }}>
+                      Designer and front end web developer
+                    </h4>
+                    <p style={{ fontSize: "16px" }}>
+                      i was working as freelancer Designer and front end web devoloper
+                      in different platform and personnel project
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <div className="education">
@@ -214,10 +231,10 @@ export default class About extends Component {
                   </div>
                   <div className="col-md-8">
                     <h4 style={{ color: "#02a4d3" }}>
-                      Lycée Hassan 2,Tinejdad
+                      Hassan 2 High School,Tinejdad
                     </h4>
                     <p style={{ fontSize: "16px" }}>
-                      Baccalaureat en science physique <br /> Mention : Bien
+                      Baccalaureat Physics Science <br /> Degree : Good
                     </p>
                   </div>
                 </div>
@@ -227,10 +244,10 @@ export default class About extends Component {
                   </div>
                   <div className="col-md-8">
                     <h4 style={{ color: "#02a4d3" }}>
-                      Faculté des Sciences et Techniques,Errachidia
+                      Faculty Of Science and Technology,Errachidia
                     </h4>
                     <p style={{ fontSize: "16px" }}>
-                      Diplôme d'études universitaires en sciences et technique
+                      Faculty Studies Diploma in Science and Technology
                     </p>
                   </div>
                 </div>
@@ -240,10 +257,10 @@ export default class About extends Component {
                   </div>
                   <div className="col-md-8">
                     <h4 style={{ color: "#02a4d3" }}>
-                      Faculté des Sciences et Techniques,Errachidia
+                    Faculty Of Science and Technology,Errachidia
                     </h4>
                     <p style={{ fontSize: "16px" }}>
-                      Licence en sciences et technique
+                      Bachlor in Science and Technology
                     </p>
                   </div>
                 </div>
